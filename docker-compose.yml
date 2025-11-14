@@ -18,9 +18,10 @@ services:
       MONGO_HOST: ${NODE_MONGO_HOST}
       MONGO_PORT: ${NODE_MONGO_PORT}
       MONGO_DB_NAME: ${NODE_MONGO_DB_NAME}
-      PORT: ${NODE_PORT}
       MONGO_USER: ${MONGO_ROOT_USER}
       MONGO_PASS: ${MONGO_ROOT_PASSWORD}
+      PORT: ${NODE_PORT}
+      NODE_PORT: ${NODE_PORT}
 
   # 2. Vue.js (Vite) Frontend
   frontend:
